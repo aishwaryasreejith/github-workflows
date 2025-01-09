@@ -4,7 +4,7 @@ jobs:
   first-job:
     runs-on:
     steps:
-      -name: Print greeting
-      run: echo "Hello world"
-      -name: print goodbye
-      run echo "Done"
+      - name: Print greeting
+        run: echo "Hello world"
+      - name: print goodbye
+        run echo "Done"
